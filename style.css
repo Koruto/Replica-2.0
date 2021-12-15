@@ -1,0 +1,115 @@
+body {
+    background-color: #f5f5f7 !important;
+}
+
+.applePadding {
+    padding-left: 200px;
+}
+
+.navHead {
+    padding: 0 25px !important;
+}
+
+.navHeadSpecial {
+    padding-right: 10%;
+}
+
+.flex-align-left {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+#wideCarouselInnerPart {
+    height: 350px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.wideCarouselInnerPartContent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wideCarouselLeftPart {
+    padding: 40px 0px 20px 40px;
+}
+
+.wideCarouselRightPart {
+    float: right;
+}
+
+#cardCarouselInner {
+    margin: 5px 20px;
+}
+
+.cardBackgroundImage {
+    background-image: url("image13.jpg");
+}
+
+.imgEdit {
+    margin: 20px;
+    padding: 50px 100px 50px 0px;
+    height: 300px;
+}
+
+.imgCheck {
+    height: 100px;
+    width: auto;
+}
+
+.helpText,
+.questionText {
+    margin: 60px;
+}
+
+.centerText {
+    position: absolute;
+    text-align: center;
+    color: black;
+}
+
+.col-center {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.cardCarouselIcon {
+    filter: invert(100%);
+}
+
+.carouselLeft {
+    margin-left: -50px;
+}
+
+.carouselRight {
+    margin-right: -50px;
+}
+
+.myCarousel {
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.greyColor {
+    color: #6e6e73;
+}
+
+.accordionColor {
+    background-color: white !important;
+    color: rgb(12, 12, 12) !important;
+    border: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-color: black !important;
+    border-radius: 50%;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .applePadding {
+        padding-right: 150px;
+        padding-left: 0px;
+    }
+}
